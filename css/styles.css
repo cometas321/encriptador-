@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.form-label {
+    color: #333333;
+}
+
+#inputText, #outputText {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#encryptBtn {
+    background-color: #69046b;
+    border-color:#69046b;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#encryptBtn:hover {
+    background-color: #218838;
+}
+
+#decryptBtn {
+    background-color: #ffc107; 
+    border-color: #ffc107;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#decryptBtn:hover {
+    background-color: #e0a800;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
